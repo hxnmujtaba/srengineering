@@ -110,23 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
     serviceSections.forEach(s => sectionObserver.observe(s));
   }
 
-  /* ── Contact form submission (prevent default) ───────── */
-  const contactForm = document.getElementById('contactForm');
-  if (contactForm) {
-    contactForm.addEventListener('submit', e => {
-      e.preventDefault();
-      const btn = contactForm.querySelector('[type="submit"]');
-      const orig = btn.textContent;
-      btn.textContent = 'Message Sent! ✓';
-      btn.disabled = true;
-      btn.style.background = '#28a745';
-      setTimeout(() => {
-        btn.textContent = orig;
-        btn.disabled = false;
-        btn.style.background = '';
-        contactForm.reset();
-      }, 3000);
-    });
-  }
+  /* ── Contact form — handled by FormSubmit.co ──────────────── */
 
 });
