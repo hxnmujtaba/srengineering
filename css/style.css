@@ -213,6 +213,8 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   .nav { height: 64px; }
   .nav-inner { height: 64px; }
   .nav-logo .logo-img { height: 40px; }
+  .nav-links { display: none !important; }
+  .nav-cta { display: none !important; }
 }
 
 .nav.scrolled {
