@@ -30,7 +30,7 @@
   --radius-lg:  14px;
   --transition: 0.25s ease;
 
-  --nav-h:      70px;
+  --nav-h:      80px;
   --container:  1200px;
 }
 
@@ -102,6 +102,8 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 .grid-2 { display: grid; gap: 28px; }
 .grid-3 { display: grid; gap: 24px; }
 .grid-4 { display: grid; gap: 20px; }
+.grid-4-center { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.grid-4-center .team-card { width: calc(25% - 15px); min-width: 220px; }
 
 @media (min-width: 640px) {
   .grid-2 { grid-template-columns: repeat(2, 1fr); }
@@ -226,7 +228,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 }
 
 .nav-logo .logo-img {
-  height: 42px;
+  height: 55px;
   width: auto;
   flex-shrink: 0;
 }
@@ -317,7 +319,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 /* ── Page Hero (inner pages) ────────────────────────────────── */
 .page-hero {
   background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
-  padding: 120px 0 60px;
+  padding: 130px 0 60px;
   position: relative;
   overflow: hidden;
 }
@@ -372,7 +374,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   margin-bottom: 16px;
 }
 .footer-brand .logo-img {
-  height: 44px;
+  height: 60px;
   width: auto;
 }
 .footer-brand strong { color: var(--white); font-size: 1rem; font-weight: 800; display: block; }
@@ -1296,10 +1298,10 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 .team-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 .team-avatar {
   width: 72px; height: 72px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-lt) 100%);
+  background: linear-gradient(135deg, #e8edf5 0%, #d4dce8 100%);
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.8rem; color: rgba(255,255,255,.6);
+  font-size: 1.8rem; color: var(--primary);
   margin: 0 auto 14px;
 }
 .team-card h4 { font-size: .95rem; font-weight: 700; color: var(--dark); margin-bottom: 4px; }
