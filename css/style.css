@@ -209,6 +209,11 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   z-index: 1000;
   transition: box-shadow var(--transition), background var(--transition);
 }
+@media (max-width: 899px) {
+  .nav { height: 64px; }
+  .nav-inner { height: 64px; }
+  .nav-logo .logo-img { height: 40px; }
+}
 
 .nav.scrolled {
   box-shadow: 0 2px 20px rgba(0,0,0,.3);
