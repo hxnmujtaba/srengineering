@@ -291,7 +291,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 .nav-mobile {
   display: none;
   position: absolute;
-  top: var(--nav-h);
+  top: 100%;
   left: 0; right: 0;
   background: var(--dark-2);
   padding: 16px 20px 24px;
@@ -319,6 +319,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   .nav-links     { display: flex; }
   .nav-cta       { display: flex; }
   .nav-hamburger { display: none; }
+  .nav-mobile    { display: none !important; }
   .nav-logo .logo-img { height: 75px; }
 }
 
