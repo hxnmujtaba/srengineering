@@ -228,7 +228,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 }
 
 .nav-logo .logo-img {
-  height: 55px;
+  height: 65px;
   width: auto;
   flex-shrink: 0;
 }
@@ -374,7 +374,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   margin-bottom: 16px;
 }
 .footer-brand .logo-img {
-  height: 60px;
+  height: 75px;
   width: auto;
 }
 .footer-brand strong { color: var(--white); font-size: 1rem; font-weight: 800; display: block; }
