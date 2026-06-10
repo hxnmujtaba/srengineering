@@ -30,7 +30,7 @@
   --radius-lg:  14px;
   --transition: 0.25s ease;
 
-  --nav-h:      80px;
+  --nav-h:      90px;
   --container:  1200px;
 }
 
@@ -228,7 +228,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 }
 
 .nav-logo .logo-img {
-  height: 65px;
+  height: 75px;
   width: auto;
   flex-shrink: 0;
 }
@@ -319,7 +319,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
 /* ── Page Hero (inner pages) ────────────────────────────────── */
 .page-hero {
   background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
-  padding: 130px 0 60px;
+  padding: 140px 0 60px;
   position: relative;
   overflow: hidden;
 }
@@ -374,7 +374,7 @@ button { cursor: pointer; font: inherit; border: none; background: none; }
   margin-bottom: 16px;
 }
 .footer-brand .logo-img {
-  height: 75px;
+  height: 150px;
   width: auto;
 }
 .footer-brand strong { color: var(--white); font-size: 1rem; font-weight: 800; display: block; }
